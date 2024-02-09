@@ -87,7 +87,6 @@ namespace Keyer
             this.Controls.Add(this.button1);
             this.Name = "Keyer";
             this.Text = "Keyer";
-            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
