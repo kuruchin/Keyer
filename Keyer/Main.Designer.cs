@@ -46,22 +46,22 @@ namespace Keyer
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(84, 44);
+            this.button1.Location = new System.Drawing.Point(53, 44);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(248, 59);
+            this.button1.Size = new System.Drawing.Size(320, 59);
             this.button1.TabIndex = 0;
-            this.button1.Text = "Выбрать картинку";
+            this.button1.Text = "Выбрать изображение";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.SelectPictureButton_Click);
             // 
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button2.Location = new System.Drawing.Point(84, 480);
+            this.button2.Location = new System.Drawing.Point(53, 480);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(248, 59);
+            this.button2.Size = new System.Drawing.Size(320, 59);
             this.button2.TabIndex = 1;
-            this.button2.Text = "Сохранить картинку";
+            this.button2.Text = "Сохранить изображение";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.SaveButton_Click);
             // 
